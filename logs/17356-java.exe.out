@@ -1,0 +1,59 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 2224milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2224"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 54858"}
+{"logLevel":"info","message":"Listening on port:54858"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.arrivalPort' and 'Test.StepImplementation.arrivalPort'"}
+{"logLevel":"debug","message":"Found Varıs havaalını secimi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.esbArrival' and 'Test.StepImplementation.esbArrival'"}
+{"logLevel":"debug","message":"Found ESB secme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.allowClick' and 'Test.StepImplementation.allowClick'"}
+{"logLevel":"debug","message":"Found Allow butonuna basıldı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.choiceDepartureAirport' and 'Test.StepImplementation.choiceDepartureAirport'"}
+{"logLevel":"debug","message":"Found Arama kutusuna basma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.cookieAccept' and 'Test.StepImplementation.cookieAccept'"}
+{"logLevel":"debug","message":"Found Cookie kapatıldı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.bookAFlight' and 'Test.StepImplementation.bookAFlight'"}
+{"logLevel":"debug","message":"Found Bilet Alma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.sawDeparture' and 'Test.StepImplementation.sawDeparture'"}
+{"logLevel":"debug","message":"Found SAW sacme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.depatureAirport' and 'Test.StepImplementation.depatureAirport'"}
+{"logLevel":"debug","message":"Found Kalkıs havaalanı seçimi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.choiceArrivalPort' and 'Test.StepImplementation.choiceArrivalPort'"}
+{"logLevel":"debug","message":"Found Varıs arama kutusuna basma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.oneWay' and 'Test.StepImplementation.oneWay'"}
+{"logLevel":"debug","message":"Found Tek Yön Seçme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.departureWrite' and 'Test.StepImplementation.departureWrite'"}
+{"logLevel":"debug","message":"Found Arama kutusuna {} yazıldı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.arrivalWrite' and 'Test.StepImplementation.arrivalWrite'"}
+{"logLevel":"debug","message":"Found Varıs Arama Kutusuna {} yazıldı in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSAW sacme : public void sawDeparture()"}
+{"logLevel":"debug","message":"\tBilet Alma : public void bookAFlight()"}
+{"logLevel":"debug","message":"\tCookie kapatıldı : public void cookieAccept()"}
+{"logLevel":"debug","message":"\tTek Yön Seçme : public void oneWay()"}
+{"logLevel":"debug","message":"\tArama kutusuna basma : public void choiceDepartureAirport()"}
+{"logLevel":"debug","message":"\tVarıs arama kutusuna basma : public void choiceArrivalPort()"}
+{"logLevel":"debug","message":"\tVarıs Arama Kutusuna {} yazıldı : public void arrivalWrite(String key)"}
+{"logLevel":"debug","message":"\tKalkıs havaalanı seçimi : public void depatureAirport()"}
+{"logLevel":"debug","message":"\tESB secme : public void esbArrival()"}
+{"logLevel":"debug","message":"\tVarıs havaalını secimi : public void arrivalPort()"}
+{"logLevel":"debug","message":"\tAllow butonuna basıldı : public void allowClick()"}
+{"logLevel":"debug","message":"\tArama kutusuna {} yazıldı : public void departureWrite(String key)"}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!Test basliyor!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Tem 01, 2021 1:15:35 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Allow butonuna basıldı' using 'class Test.StepImplementation.allowClick"}
+{"logLevel":"debug","message":"Executing 'Cookie kapatıldı' using 'class Test.StepImplementation.cookieAccept"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
